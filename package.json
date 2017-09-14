@@ -1,0 +1,33 @@
+{
+  "name": "polymer-hyper",
+  "version": "0.0.0",
+  "description": "Sample example with Polymer 3 and hyperHTML",
+  "main": "src/index.js",
+  "repository": "https://github.com/LasaleFamine/polymer-hyper",
+  "author": "LasaleFamine",
+  "scripts": {
+    "start": "http-server src",
+    "build": "webpack",
+    "dev": "webpack -w",
+    "test": "xo"
+  },
+  "xo": {
+    "space": true,
+    "envs": [
+      "browser"
+    ],
+    "rules": {
+      "new-cap": 0
+    }
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/polymer": "next",
+    "hyperhtml": "1.7.3"
+  },
+  "devDependencies": {
+    "http-server": "0.10.0",
+    "webpack": "3.5.5",
+    "xo": "0.18.2"
+  }
+}
