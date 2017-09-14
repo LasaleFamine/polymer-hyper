@@ -1,7 +1,7 @@
 import {Element} from '@polymer/polymer/polymer-element';
 import {PropertyAccessors} from '@polymer/polymer/lib/mixins/property-accessors';
 import {PropertyEffects} from '@polymer/polymer/lib/mixins/property-effects';
-import {bind, wire} from 'hyperhtml';
+import {bind} from 'hyperhtml';
 
 const withHyper = Base => {
   return class extends PropertyEffects(PropertyAccessors(Base)) {
